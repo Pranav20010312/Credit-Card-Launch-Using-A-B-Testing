@@ -88,9 +88,9 @@ In this phase, we evaluated whether the newly designed credit card had a statist
 
 ## ✅ Business Impact
 
-Phase 1 revealed a focused and data-driven target customer group aged 18–25, enabling precise market segmentation.
+**Phase 1** revealed a focused and data-driven target customer group aged 18–25, enabling precise market segmentation.
 
-Phase 2 validated the credit card offering with a statistically significant increase in transactions for the test group.
+**Phase 2** validated the credit card offering with a statistically significant increase in transactions for the test group.
 
 Together, these insights provide a data-backed foundation for a confident rollout, expected to drive significant growth in transaction volume and customer acquisition.
 

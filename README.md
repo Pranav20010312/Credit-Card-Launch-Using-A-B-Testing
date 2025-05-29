@@ -1,4 +1,4 @@
-# 🏦 Atliqo Bank – Credit Card Targeting & A/B Testing Strategy
+# 💳 Credit Card Launch Using A/B Testing
 
 ## 📌 Problem Statement
 
@@ -59,7 +59,7 @@ Atliqo Bank, a new entrant in the Indian banking sector, is preparing to launch 
 
 In this phase, we evaluated whether the newly designed credit card had a statistically significant effect on transaction behavior using A/B testing.
 
-### ✅ What Was Done
+
 
 1. **Sample Size Estimation**:
    - Used the `statsmodels` power analysis tool to calculate the required sample size for detecting different effect sizes (0.1 to 1.0) with 80% power and 5% significance level.
@@ -75,25 +75,24 @@ In this phase, we evaluated whether the newly designed credit card had a statist
 4. **Descriptive Statistics**:
    - Calculated mean and standard deviation for both groups.
 
-5. **Manual Z-Score Calculation**:
+5. **Z-Score and p-value Calculation**:
    - Computed the Z-score for difference in means.
    - Compared it to the critical Z-value (1.645 for one-tailed test at 5% significance level).
    - Calculated the corresponding p-value.
 
-6. **Z-Test Using `statsmodels`**:
-   - Performed a two-sample Z-test (`sm.stats.ztest`) to validate the results programmatically.
-   - Direction: Test group > Control group (right-tailed test).
 
-7. **Conclusion**:
+6. **Conclusion**:
    - The p-value was **less than 0.05**, so we **reject the null hypothesis**.
    - There is **statistical evidence** that the test group (who got the new card) had higher average transactions than the control group.
 
 ---
 
-## ✅ Final Outcome
+## ✅ Business Impact
 
-- **Phase 1** revealed a focused and data-driven target customer group aged 18–25.
-- **Phase 2** validated the card offering with a statistically significant increase in transactions for the test group.
-- These findings support a confident rollout of the new credit card, backed by both customer insights and experimental evidence.
+Phase 1 revealed a focused and data-driven target customer group aged 18–25, enabling precise market segmentation.
+
+Phase 2 validated the credit card offering with a statistically significant increase in transactions for the test group.
+
+Together, these insights provide a data-backed foundation for a confident rollout, expected to drive significant growth in transaction volume and customer acquisition.
 
 ---

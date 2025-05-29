@@ -15,7 +15,6 @@ Atliqo Bank, a new entrant in the Indian banking sector, is preparing to launch 
 - **Pandas, NumPy** – Data Cleaning & Manipulation  
 - **Matplotlib, Seaborn** – Data Visualization  
 - **Statsmodels, Scipy** – Statistical Testing  
-- **Jupyter Notebook** – Analysis Environment  
 
 ---
 
